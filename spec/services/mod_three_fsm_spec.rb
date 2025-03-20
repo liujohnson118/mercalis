@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe ModThreeFsm do
-  describe ".call" do
+  describe "#call" do
     it { expect(ModThreeFsm.call("0")).to eq(0) }
     it { expect(ModThreeFsm.call("1")).to eq(1) }
     it { expect(ModThreeFsm.call("10")).to eq(2) }

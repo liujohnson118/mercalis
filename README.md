@@ -4,10 +4,12 @@
 
 3.3.6
 
-
 * Configuration
 
 * How to run the test suite
+```
+bundle exec rspec
+```
 
 * Services (job queues, cache servers, search engines, etc.)
 
@@ -25,7 +27,3 @@ mercalis(dev)> ModThreeFsm.call("1110")
 mercalis(dev)> ModThreeFsm.call("1111")
 => 0
 ```
-
-* Deployment instructions
-
-* ...
