@@ -1,3 +1,4 @@
+# Finite state machine
 class FiniteStateMachine
   # @override
   def self.call(...)

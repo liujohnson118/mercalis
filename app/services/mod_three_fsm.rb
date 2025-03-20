@@ -1,3 +1,4 @@
+# Calculate remainder of a binary string after division by 3 using FSM
 class ModThreeFsm < FiniteStateMachine
   # Available states of FSM
   STATES = Set.new(
