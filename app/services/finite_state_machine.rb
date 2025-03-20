@@ -39,7 +39,7 @@ class FiniteStateMachine
   # @return [Symbol] Final state after transitioning of all characters of input
   def call(input)
     input.chars.each do |char|
-      @current_state = transitions[@current_state][char]
+      @current_state = transitions[current_state][char]
     end
     current_state
   end
