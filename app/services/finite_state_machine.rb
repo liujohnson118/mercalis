@@ -10,6 +10,12 @@ class FiniteStateMachine
   # @param initial_state [Symbol] Initial state of FSM
   # @param final_states [Set] Optional. Required for acceptors. Optional for transducers/classifiers
   # @param transitions [Hash] Hash for mapping current state to next state using input
+  #   @example Mod Three FSM:
+  #     {
+  #       S0: { "0" => :S0, "1" => :S1 },
+  #       S1: { "0" => :S2, "1" => :S0 },
+  #       S2: { "0" => :S1, "1" => :S2 }
+  #     }
   #
   # @return [Void]
   def initialize(
