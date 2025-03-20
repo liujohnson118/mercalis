@@ -1,5 +1,7 @@
 # README
 
+This solution is for the advanced option of the assignment. 
+
 * Ruby version
 
 3.3.6
