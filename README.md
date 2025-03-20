@@ -11,8 +11,6 @@
 bundle exec rspec
 ```
 
-* Services (job queues, cache servers, search engines, etc.)
-
 ## ModThreeFsm
 Example runs: 
 ```
