@@ -16,6 +16,8 @@ Example runs:
 ```
 mercalis(dev)> ModThreeFsm.call("110")
 => 0
+mercalis(dev)> ModThreeFsm.call("1010")
+=> 1
 mercalis(dev)> ModThreeFsm.call("1101")
 => 1
 mercalis(dev)> ModThreeFsm.call("1110")
