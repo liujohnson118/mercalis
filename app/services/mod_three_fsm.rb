@@ -11,7 +11,7 @@ class ModThreeFsm < FiniteStateMachine
       "0",
       "1"
     ]
-  )
+  ).freeze
   TRANSITIONS = {
     S0: {
       "0" => :S0,
@@ -25,7 +25,7 @@ class ModThreeFsm < FiniteStateMachine
       "0" => :S1,
       "1" => :S2
     }
-  }
+  }.freeze
   STATES_MAP = {
     S0: 0,
     S1: 1,
